@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forex Ticker</title>
+</head>
+<body>
+  <div id="forex-ticker"></div>
+  <script type="text/javascript" src="https://1forge.com/widget/forexTicker.js"></script>
+  <script>
+    // Replace "YOUR_API_KEY" with your actual API key
+    ForexTicker({
+      pairs: ["BTC/USD", "EUR/USD", "GBP/USD", "USD/JPY", "AUD/USD", "USD/CAD", "USD/CHF", "NZD/USD", "EUR/JPY", "GBP/JPY","HKD/USD","XAU/USD"],
+      width: "900px",
+      height: "1000px",
+      graph: true, // optional
+      ticker: false, // optional
+      apiKey: "YOUR_API_KEY"
+    });
+  </script>
+
+  </body>
+</html>
